@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>FAQ card</title>
+</head>
+<body>
+  <div class="container">
+    <label class="accordion accordion--1" for="open-1">
+      <input class="accordion__open" type="radio" name="accordion-1" id="open-1">
+      <input class="accordion__close" type="radio" name="accordion-1" id="close-1">
+      <div class="accordion__tab">CARD</div>
+      <div class="accordion__wrapper">
+        <dl class="accordion__box">
+          <dt class="accordion__partition">
+            <span class="accordion__number">01</span>
+            <span class="accordion__title">FAQ item title</span>
+          </dt>
+          <dd class="accordion__text">
+            <ul>
+              <li>Subscribe</li>
+              <li>Like</li>
+              <li>Comment</li>
+              <p>This is a pretty neat card isn't it?</p>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+      <label for="close-1" class="accordion__button">
+        <span class="accordion__buttonText">CLOSE</span>
+      </label>
+    </label>
+  </div>
+
+</body>
+</html>
